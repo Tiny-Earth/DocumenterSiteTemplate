@@ -19,8 +19,8 @@
 
 ## Useful Links
 
-- <https://github.com/snotskie/DocSiteTest/actions>
-- <https://github.com/snotskie/DocSiteTest/deployments>
+- <https://github.com/Tiny-Earth/DocumenterSiteTemplate/actions>
+- <https://github.com/Tiny-Earth/DocumenterSiteTemplate/deployments>
 - <https://documenter.juliadocs.org/stable/man/guide/>
 - <https://documenter.juliadocs.org/stable/man/hosting/>
 - <https://m3g.github.io/JuliaNotes.jl/stable/publish_docs/>
