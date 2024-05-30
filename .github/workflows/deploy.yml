@@ -14,11 +14,10 @@ jobs:
         with:
           version: '1'
       - run: |
-          julia --project=site -e '
+          julia --project=. -e '
             import Pkg
-            Pkg.add("Documenter")
             Pkg.instantiate()'
-      - run: julia --project=site site/make.jl
+      - run: julia --project=. site/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
